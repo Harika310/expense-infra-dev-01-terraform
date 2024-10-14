@@ -8,9 +8,9 @@ variable "common_tags" {
  
 }
 
-variable "backend_tags" {
+variable "web_alb_tags" {
     default = {
-        Component = "backend"
+        component = "web-alb"
     }
 }
 
@@ -25,4 +25,3 @@ variable "environment" {
 variable "zone_name" {
     default = "daws-81s.online"
 }
-

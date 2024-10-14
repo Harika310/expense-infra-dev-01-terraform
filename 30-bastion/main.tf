@@ -1,4 +1,4 @@
-module "ec2_instance" {
+module "bastion" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
   name = local.resource_name

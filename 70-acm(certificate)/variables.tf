@@ -26,3 +26,7 @@ variable "zone_name" {
     default = "daws-81s.online"
 }
 
+variable "zone_id" {
+    default = "Z09622173O6F2OX8NP6KO"
+}
+

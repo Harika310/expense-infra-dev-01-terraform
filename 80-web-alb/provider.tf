@@ -8,7 +8,7 @@ terraform {
      
     backend "s3" {
     bucket = "harika-remote-state"
-    key    = "expense-infra-bastion"
+    key    = "expense-web-alb"
     region = "us-east-1"
     dynamodb_table = "devops-locking"
   }
